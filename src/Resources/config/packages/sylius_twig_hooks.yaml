@@ -1,5 +1,5 @@
 sylius_twig_hooks:
     hooks:
         sylius_admin.customer.show.information:
-            blocks:
-                gdpr: '@SynoliaSyliusGDPRPlugin\Admin\Customer\Show\gdpr.html.twig'
+            gdpr:
+                template: '@SynoliaSyliusGDPRPlugin\Admin\Customer\Show\gdpr.html.twig'
